@@ -32,7 +32,6 @@ function App() {
      <input placeholder='What is your country' type='text' onChange={handleInputChange} value={cityName}/>
      <button type='submit'>Submit</button>
      </form>
-     
      {weatherData && <WeatherCard weatherData={weatherData} />}
     </div>
   );
