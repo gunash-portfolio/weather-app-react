@@ -32,8 +32,8 @@ function App() {
      <input placeholder='What is your country' type='text' onChange={handleInputChange} value={cityName}/>
      <button type='submit'>Submit</button>
      </form>
-     <h1>Temperature of {cityName}:{weatherData&&weatherData.main&&weatherData.main.temp}°C</h1>
-     <WeatherCard></WeatherCard>
+     
+     {weatherData && <WeatherCard weatherData={weatherData} />}
     </div>
   );
 }
