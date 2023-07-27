@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import FetchWeatherData from './FetchWeatherData';
-
+import WeatherCard from './WeatherCard';
 function App() {
  const [weatherData, setWeatherData]= useState(null);
  const [cityName,setCityName] = useState('')
@@ -33,6 +33,7 @@ function App() {
      <button type='submit'>Submit</button>
      </form>
      <h1>Temperature of {cityName}:{weatherData&&weatherData.main&&weatherData.main.temp}°C</h1>
+     <WeatherCard></WeatherCard>
     </div>
   );
 }
