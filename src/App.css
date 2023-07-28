@@ -1,9 +1,82 @@
+*{
+  box-sizing: border-box;
+  background-image:url(../public/white-cloud-blue-sky.jpg);
+}
+
+
 /* Container to center the cards */
 .weather-container {
   display: flex;
   justify-content: center;
   align-items:start;
   height: 100vh;
+  flex-direction: column;
+}
+.weather-app-h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #FFA500; /* Orange color - adjust as per your design */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  
+  padding: 10px 20px;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out, color 0.2s ease-in-out;
+}
+.weather-app-h1:hover {
+  transform: scale(1.05);
+  color: #FFC04D; /* Slightly lighter orange color on hover */
+}
+/* Input element styles */
+input[type="text"] {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0); /* Subtle gray gradient */
+  color: #333; /* Text color */
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Input hover effect */
+input[type="text"]:hover {
+  border-color: #87CEFA; /* Light blue border color on hover */
+  box-shadow: 0 0 4px rgba(135, 206, 250, 0.6); /* Light blue box shadow on hover */
+}
+
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid #4682B4;
+  border-radius: 5px;
+  background: linear-gradient(to right, #87CEFA, #4682B4); /* Blue gradient */
+  color: #fff; /* Text color */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Hover effect */
+button:hover {
+  background: linear-gradient(to right, #4682B4, #87CEFA); /* Reverse gradient on hover */
+}
+
+/* Focus style */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(70, 130, 180, 0.6); /* Light blue box shadow on focus */
+}
+
+
+.App{
+display:flex;
+justify-content: center;
+  align-items:center;
+  height: 100vh;
+  flex-direction: column;
 }
 
 /* Weather card container */

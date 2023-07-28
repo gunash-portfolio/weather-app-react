@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-     <h1>Weather App</h1>
+     <h1 className='weather-app-h1'>Weather App</h1>
      <form onSubmit={handleSubmit}>
      <input placeholder='What is your country' type='text' onChange={handleInputChange} value={cityName}/>
      <button type='submit'>Submit</button>

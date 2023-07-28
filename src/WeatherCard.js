@@ -9,7 +9,7 @@ const WeatherCard = ({ weatherData,cityName }) => {
           <div class="temperature">{weatherData&&weatherData.main&&weatherData.main.temp}°C</div>
           <div class="description">Partly Cloudy</div>
         </div>
-        <div class="location">New York</div>
+        <div class="location">{weatherData.name}</div>
       </div>
       </div>
 
