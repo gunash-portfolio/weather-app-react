@@ -50,7 +50,7 @@ The `App` component is the main component of the Weather App. It handles fetchin
 The `fetchWeatherData` function in the `api.js` file is responsible for making API requests to OpenWeatherMap to retrieve weather data.
 
 ## Technologies Used
-• React (Create React App)
-• HTML/CSS
-• OpenWeatherMap API
+- React (Create React App),
+- HTML/CSS,
+- OpenWeatherMap API,
 
