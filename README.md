@@ -37,8 +37,8 @@ npm start.
 9. Open your web browser and visit http://localhost:3000 to access the Weather App.
 
 ## Usage
-1.Enter the name of a city in the input field.
-2.Click the "Get Weather" button to fetch weather information for the specified city.
+1. Enter the name of a city in the input field.
+2. Click the "Get Weather" button to fetch weather information for the specified city.
 3. The app will display the city name and temperature in Celsius.
 
 ## Components
