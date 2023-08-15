@@ -57,3 +57,7 @@ The `fetchWeatherData` function in the `api.js` file is responsible for making A
 ## Credits
 - Weather data is fetched from the OpenWeatherMap API (https://openweathermap.org/).
 - This project was created as part of a learning exercise.
+
+## License
+This project is licensed under the MIT License. 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
