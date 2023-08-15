@@ -26,15 +26,15 @@ cd weather-app
 ```bash
 npm install
 ```
-4.Get your OpenWeatherMap API key:
+4. Get your OpenWeatherMap API key:
 
-5.Sign up for a free account on OpenWeatherMap (https://openweathermap.org/).
-6.Obtain your API key from the dashboard.
+5. Sign up for a free account on OpenWeatherMap (https://openweathermap.org/).
+6. Obtain your API key from the dashboard.
 
-7.Replace YOUR_OPENWEATHERMAP_API_KEY in src/api.js and src/App.js with your actual API key.
+7. Replace YOUR_OPENWEATHERMAP_API_KEY in src/api.js and src/App.js with your actual API key.
 8. Run the development server:
-npm start
-9.Open your web browser and visit http://localhost:3000 to access the Weather App.
+npm start.
+9. Open your web browser and visit http://localhost:3000 to access the Weather App.
 
 ## Usage
 1.Enter the name of a city in the input field.
