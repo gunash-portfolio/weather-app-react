@@ -54,3 +54,6 @@ The `fetchWeatherData` function in the `api.js` file is responsible for making A
 - HTML/CSS,
 - OpenWeatherMap API,
 
+## Credits
+- Weather data is fetched from the OpenWeatherMap API (https://openweathermap.org/).
+- This project was created as part of a learning exercise.
