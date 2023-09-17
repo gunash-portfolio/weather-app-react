@@ -1,5 +1,6 @@
 # Weather App
-
+![Screenshot](screenshot_1.png)
+![Screenshot](screenshot_2.png)
 The Weather App is a simple React application that allows users to fetch and display weather information for multiple cities using the OpenWeatherMap API. Users can also delete weather cards for specific cities.
 
 ## Features
